@@ -22,7 +22,7 @@ int main()
 		exit(1);
 		
 	}
-	if (mysql_real_connect(con,"localhost","root","PASSWORD","process_control",0,NULL,0)==NULL)
+	if (mysql_real_connect(con,"localhost","root","c09784101","process_control",0,NULL,0)==NULL)
 	{
 		fprintf(stderr,"%s\n",mysql_error(con));
 		exit(2);

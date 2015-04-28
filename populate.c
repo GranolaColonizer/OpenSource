@@ -4,6 +4,7 @@
 
 void put_temperature(MYSQL * con,double temperature)
 {
+	//Sample comment
 	char SQLString[100];
 	sprintf(SQLString,"INSERT INTO mixer_temp(time,temperature) VALUES (NOW(),%f)",temperature);
 	printf("%s\n",SQLString);
